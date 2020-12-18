@@ -1,0 +1,123 @@
+@font-face {
+	font-family:;
+	src:url(Amienne Regular.ttf);
+}
+
+*
+{
+	font-family: Amienne Regular;
+}
+
+@media (min-width: 768px)
+{ body
+   {
+      background-size: 100%
+   }
+}
+
+.banniere
+{
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: auto;
+}
+
+#banniere
+{
+	object-fit: contain;
+	width: 100%;
+}
+
+.btn
+{
+	font-size: 3em;
+	border: solid #39da00 3px;
+	border-radius: 15px;
+	color: #39da00;
+}
+
+.btn:hover
+{
+	color: #39da00;
+}
+
+.légumes
+{
+	margin: 15px;
+	list-style-type: none;
+}
+
+.légumes img
+{
+	width: 150px;
+	height: 150px;
+	border: solid #39da00 2px;
+	border-radius: 15px;
+	padding: 10px;
+	margin-bottom: 35px;
+}
+
+.fruits
+{
+	margin: 15px;
+	list-style-type: none;
+}
+
+.fruits img
+{
+	width: 150px;
+	height: 150px;
+	border: solid #39da00 2px;
+	border-radius: 15px;
+	padding: 10px;
+	margin-bottom: 35px;
+}
+
+.confitures
+{
+	list-style-type: none;
+}
+
+.confitures img
+{
+	width: 150px;
+	height: 150px;
+	border: solid #39da00 2px;
+	border-radius: 15px;
+	padding: 10px;
+	margin-bottom: 35px;
+}
+
+.boissons
+{
+	list-style-type: none;
+}
+
+.boissons img
+{
+	width: 150px;
+	height: 150px;
+	border: solid #39da00 2px;
+	border-radius: 15px;
+	padding: 10px;
+	margin-bottom: 35px;
+}
+
+footer
+{
+border-top: solid #39da00 2px;
+color: #39da00;
+list-style-type: none;
+}
+
+.rs ul
+{
+	list-style-type: none;
+}
+
+.rs img
+{
+	width: 50px;
+	height: 50px;
+}
